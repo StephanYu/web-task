@@ -1,0 +1,31 @@
+Web Task
+
+Requirements:
+
+        * PHP 5.3
+        * OpenLayers 2.XX (http://www.openlayers.org/)
+        * PostgreSQL 8.4 + PostGIS 1.5 (http://postgis.refractions.net/)
+
+Optional:
+
+        * Zend Framework
+        * Dojo Toolkit
+        * MapServer / GeoServer
+
+Step 0: Setup
+
+        * setup php environment
+        * setup postgres 8.4 with postgis
+        * import database dump
+
+Step 2: Data Analysis (PHP)
+
+        * provide an user interface to select a region 
+        * calculate max, min, median and average for all points inside the selected region
+        * output the calculated values in a table
+
+Step 1: Data Visualization (JavaScript/OpenLayers)
+
+        * display selected region as a vector layer with outlined borders
+        * display all points inside the selected region as a vector layer with different colors for values above and below the median
+
